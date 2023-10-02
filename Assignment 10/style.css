@@ -1,0 +1,30 @@
+.navbg{
+    background-color: #6e71c7;
+}
+button{
+    text-align: left;
+    font: normal normal 900 27px/33px Fidel;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 58px;
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    width: 217px;
+    height: 58px;
+    transition: all .2s ease-in-out;
+}
+.sec1{
+background-image: url(images/bg1.png);
+
+}
+.img1{
+    /* position: absolute; */
+    /* bottom: 0; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+}

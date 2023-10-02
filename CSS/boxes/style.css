@@ -1,0 +1,15 @@
+.box{
+    background-color: blue;
+    width: 80%;
+    height: 300px;
+    background-color: blue;
+}
+.child{background-color: cadetblue;
+height: 200px;
+width: 50%;}
+.content{
+    background-color: blueviolet;
+    width: 800px;
+    min-height: 100px;
+    max-height: 300px;
+}

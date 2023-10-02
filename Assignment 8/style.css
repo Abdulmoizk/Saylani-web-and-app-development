@@ -1,0 +1,109 @@
+.my-nav{
+    background-color: black;
+}
+.nav-menu > li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-menu a {
+color: white;
+margin-left: 30px;
+width: 100%;
+text-align: end;
+font-size: 18px;
+}
+
+.img{
+    margin-left: 45px;
+}
+.btn{
+    border-radius: 35px;
+    font-size: 18px;
+    color: white;
+    border-color: red;
+    background-color: red;
+    border: 2px solid;
+    padding: 20px;
+}
+.franchise{
+    background-color: black;
+}
+.st-btn > button:hover{
+    background-color: red;
+    border-color: red;
+}
+.st-btn > button:active{
+    background-color: aliceblue !important;
+}
+.first-para{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+    font-style: apercu;
+}
+/* .section1-body{
+    background-color: black;
+} */
+.section1-img{
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    
+}
+.section1-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0px 70px;
+}
+.section1-btn > button{
+    border-radius: 20px;
+    padding: 0px 15px;
+    line-height: 20px;
+    width: 175px;
+    height: 40px;
+}
+.section2-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+}
+.section2-sub{
+    display: flex;
+    justify-content: space-around;
+}
+.section2-sub > btn button{
+    border-radius: 20px;
+    width: 175px;
+    padding: 0px 20px;
+    margin-top: 100px;
+
+}
+.word-spc{
+    display: flex;
+    word-spacing: 20px;
+}
+.section3-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+}
+.section3-img div{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row
+}
+.section3-img img{
+    width: ;
+}

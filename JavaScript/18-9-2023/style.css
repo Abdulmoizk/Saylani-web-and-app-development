@@ -1,0 +1,22 @@
+.firstbg{   
+    background-image: url(images/08d9ef7723de602edefa8af825d9a1e2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+}
+.cody{
+    position: relative;
+    top: 300px;
+    left: 1060px;
+    width: 180px;
+}
+.baraka{
+    position: relative;
+    top: 300px;
+    left: 1060;
+    width: 130px;
+}

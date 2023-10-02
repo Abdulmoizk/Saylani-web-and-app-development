@@ -1,0 +1,42 @@
+.body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: space-between;
+    /* flex-flow: column-reverse; */
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black ;
+    border: 2px solid red;
+    flex: 4;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: green ;
+    border: 2px solid red;
+    flex: 1;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue ;
+    border: 2px solid red;
+    flex: 1;
+}
+@media only screen and (max-width: 425px) {
+    .box
+    .box1
+    .box2
+} {width: 100px;}

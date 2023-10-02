@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+}
+.container{
+    border: 2px solid red;
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat( auto-fill, min-max (3, 250px) );
+    /* grid-template-rows: repeat(2, 200px) ; */
+}
+.box{
+    border: 1px solid black;
+}

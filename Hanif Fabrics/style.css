@@ -1,0 +1,24 @@
+.head{
+    background-color: #000614;
+}
+.logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    
+}
+.listbar li{
+    display: inline-flex;
+    font-weight: bolder;
+    gap: 50px;
+    align-items: center;
+}
+.icon a{
+    display: inline-flex;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
