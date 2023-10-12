@@ -1,0 +1,23 @@
+@font-face {
+    font-family: playfair;
+    src: url(fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+.navbar {
+    background-color: brown !important;
+    height: 60px;
+}
+.navbar-brand{
+    color: antiquewhite !important;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: brown !important;
+    border: 1px solid brown !important;
+    color: antiquewhite;
+    font-weight: bold !important ; 
+}
+.btn-primary:hover{
+    background-color: brown !important; 
+
+}
