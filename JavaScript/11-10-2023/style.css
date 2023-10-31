@@ -1,6 +1,9 @@
 @font-face {
-    font-family: playfair;
+    font-family: "playfair";
     src: url(fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+*{
+    font-family: "playfair";
 }
 
 .navbar {
@@ -20,4 +23,7 @@
 .btn-primary:hover{
     background-color: brown !important; 
 
+}
+.card{
+    margin: auto;
 }
