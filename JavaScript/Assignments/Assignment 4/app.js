@@ -109,3 +109,163 @@
 // }
 // }
 
+/////chap 21-25////
+
+// //1 
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+// var fullName = firstName + " " + lastName;
+// alert("Hello, " + fullName);
+
+// //2
+
+// var phone = prompt("Enter your favourite phone brand", "Samsung Galaxy S6 Edge Plus");
+// var length = phone.length + 1
+// document.write("My favourite phone is: " + phone);
+// document.write("</br>Length of string is " + length);
+
+// //3
+
+// var str = "Pakistani";
+// document.write("String: " + str)
+// document.write("<br/>Index of 'n' is: " + str.indexOf("n"));
+
+//4
+
+// var str = "Hello World";
+// document.write("String: " + str)
+// document.write("<br/>Index of 'l' is: " + str.lastIndexOf("l"));
+
+// //5
+
+// var str = "Pakistani";
+// document.write("String: " + str)
+// document.write("<br/>Character at index 3: " + str.charAt(3));
+
+// //6
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+// alert(firstName.concat(" ", lastName));
+
+// //7 
+
+// var city = "Hyderabad";
+// var city1 = city.replace("Hyder", "Islam");
+// document.write("City: " + city)
+// document.write("</br>After Replacement: " + city1);
+
+// //8
+
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var msg = message.replace(/and/g, "&")
+// document.write(msg);
+
+// //9
+
+// var str = "472";
+// var num = Number(str);
+// document.write("Value: " + str);
+// document.write("</br>Type: string");
+// document.write("</br>Value: " + num);
+// document.write("</br>Type: number");
+
+// //10
+
+// var userInput = prompt("Enter any dryfruit", "peanuts");
+// var uprcse = userInput.toUpperCase();
+// document.write("User input; " + userInput);
+// document.write("</br>Upper case: " + uprcse);
+
+// //11
+
+// var prgrm = prompt("Enter you course program", "javascript");
+// var ttlecase = prgrm.charAt(0).toUpperCase();
+// var remain = prgrm.slice(1);
+// document.write("User input: " + prgrm);
+// document.write("</br>Title case: " + ttlecase + remain);
+
+// //12
+
+// var num = 35.36;
+// var str = num.toString();
+// document.write("Number: " + num);
+// document.write("</br>Result: " + str.replace(".", ""));
+
+// //13
+
+// var userName = prompt("Enter your username");
+// var spclChar = ["@", ".", ",", "!"];
+// for (var i = 0; i < userName.length; i++) {
+//     if (userName.includes(spclChar[i])) {
+//         var name = prompt("Please enter username without special characters")
+//     }
+//     else {
+//         alert("Thanks")
+//         break;
+//     }
+// }
+
+// //14
+
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var order = prompt("Welcome to ABC Bakery. What do you want to order Sir/Madam", "cookie");
+// var flag = true;
+// for (var i = 0; i <= a.length; i++){
+//     if(order === a[i]) {
+//         alert(order + " is available at index " + (i + 1) + " in our bakery");
+//      flag = false;
+//     } 
+// }
+// if (flag){
+//     alert(order + " is not available in our bakery");
+// }
+
+//15
+
+// var password = prompt("Enter your password");
+// var hasAlphabet = false;
+// var hasNumber = false;
+// for (var i = 0; i < password.length; i++) {
+//     var charcode = password.charCodeAt(i);
+//     if ((charcode >=65 && charcode <= 90) || (charcode >=97 && charcode <=122)) {
+//         hasAlphabet= true;
+//     } else if (charcode >= 48 && charcode <= 57) {
+//         hasNumber = true;
+//     } 
+// }
+// if (hasAlphabet && hasNumber && password.length >=6 && !(password[0].charCodeAt(0) >= 48 && password[0].charCodeAt(0) <= 57)) {
+//     document.write("Entered Password: " + password);
+//     document.write("</br>Password is valid.")
+// } else {
+//     document.write("Entered password: " + password);
+//     document.write("</br>Invalid password! Please enter a valid password.")
+// }
+
+//16
+
+// var university = "University of Karachi";
+// university = university.split("");
+// document.write(university.join("</br>"));
+
+// //17
+
+// var userInput = prompt("enter something", "Pakistan");
+// document.write("User input: " + userInput);
+// document.write("</br>Last character of input: " + userInput.charAt(userInput.length - 1))
+
+// //18
+
+// var str = "The quick brown fox jumps over the lazy dog";
+// str = str.toLowerCase();
+// str = str.split(" ")
+// var count = 0;
+// for(var i = 0; i < str.length; i++){
+//     if (str[i] === "the") {
+//         count++;
+//     }
+// }
+// document.write("Text: The quick brown fox jumps oer the lazy dog");
+// document.write("</br>There are " + count + " occurence(s) of word 'the'.")
+
