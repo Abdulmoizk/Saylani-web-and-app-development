@@ -1,9 +1,42 @@
 .calc {
     border: 1px solid black;
-    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 12px;
     height: 400PX;
-    border-radius: 30px;
+    border-radius: 10px;
+    text-align: center;
 }
-.caltable{
+button{
+    padding: 15px;
+    min-width: 60px;
+    max-width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-size: larger;
+}
+input{    
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 15px;
+    margin: 8px;
+    text-align: center;
+    width: 80%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-size: larger;
+    text-align: right;
     
+}
+button:hover{
+    background-color: white;
+}
+button:active{
+    box-shadow: 0 3px gainsboro;
+    border: 2px solid black;
 }

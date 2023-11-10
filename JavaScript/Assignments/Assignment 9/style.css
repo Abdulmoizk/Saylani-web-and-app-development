@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "garamound";
+    src: url(fonts/OFL.txt);
+}
+* {
+    font-family: "garamound";
+ box-sizing: border-box;
+}
+a {
+    font-weight: bolder;
+    padding: 30px;
+    font-size:xx-large !important;
+}
+.login {
+    padding: 20px;
+   margin: 0 30%;
+}
+.mb-3 label{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.mb-3 button{
+    font-weight: bolder;
+    font-size: 20px;
+    min-width: fit-content;
+    max-width: fit-content;
+    background-color: grey;
+    border-color: aliceblue;
+}
+.mb-3 button:hover{
+    background-color: lightgrey;
+    color: darkgrey;
+    border-color: aliceblue;
+}
+.mb-3 button:active{
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+    border-color: aliceblue;
+}
