@@ -38,3 +38,8 @@ a {
     border-color: white !important;
     border-color: aliceblue;
 }
+
+.card {
+    width: 600px;
+    margin: auto;
+}
