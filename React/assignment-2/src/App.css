@@ -37,10 +37,11 @@
   }
 } */
 body{
-  padding: 50px;
+  padding: 0  50px;
   color: rgb(70, 69, 69);
 }
 
 h1{
   color: rgb(37, 37, 37);
+  text-align: center;
 }
