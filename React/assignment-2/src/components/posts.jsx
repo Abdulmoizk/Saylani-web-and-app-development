@@ -606,14 +606,15 @@ const postsComponent = () =>{
         <ul>
         {posts.map((item, index) => (
           <li key={index}>
-          <strong>User ID:</strong> {item.userId}, 
-          <br />,
-          <strong>ID:</strong> {item.id},
-          <br />, 
-          <strong>Title:</strong> {item.title},
-          <br />, 
-          <strong>Body:</strong> {item.body},
-        <br />,
+          <strong>User ID:</strong> {item.userId} 
+          <br />
+          <strong>ID:</strong> {item.id}
+          <br />
+          <strong>Title:</strong> {item.title}
+          <br />
+          <strong>Body:</strong> {item.body}
+        <br />
+        <br />
         </li>
         
         ))}

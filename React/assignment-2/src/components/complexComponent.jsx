@@ -11,11 +11,11 @@ const complexComponent = () => {
   ];
   return (
     <div>
-      {complex.map((item, index) => (
+      {complex.map((value, index) => (
         <div key={index}>
-          <h3>{item.company}</h3>
+          <h3>{value.company}</h3>
           <ul>
-            {item.jobs.map((job, jobIndex) => (
+            {value.jobs.map((job, jobIndex) => (
               <li key={jobIndex}>{job}</li>
             ))}
           </ul>

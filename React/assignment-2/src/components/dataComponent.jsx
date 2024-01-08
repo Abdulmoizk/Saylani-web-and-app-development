@@ -6,8 +6,8 @@ const dataComponent = () => {
     //     }
     // }
     <ul>
-      {data.map((item, index) => (
-        <li key={index}>{item}</li>
+      {data.map((value, index) => (
+        <li key={index}>{value}</li>
       ))}
     </ul>
   );

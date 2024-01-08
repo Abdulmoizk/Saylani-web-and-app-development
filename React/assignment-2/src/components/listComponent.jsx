@@ -6,8 +6,8 @@ const listComponent = () => {
   ];
   return (
     <ul>
-      {list.map((item, index) => (
-        <li key={index}>{item.name}</li>
+      {list.map((value, index) => (
+        <li key={index}>{value.name}</li>
       ))}
     </ul>
   );
