@@ -24,7 +24,7 @@ function App() {
         <br />
         <h1>Question 2</h1>
         <ul>
-          <h2>import Something from 'package'</h2>{" "}
+          <h2>{"=> "}import Something from 'package'</h2>{" "}
         </ul>
         <li>
           This syntax is used when the package exports a default export. The
@@ -34,7 +34,7 @@ function App() {
         </li>
         <br />
         <ul>
-          <h2>import Something with syntax from 'package'</h2>{" "}
+          <h2>{"=> "}import {"{"}Something{"}"} from 'package'</h2>{" "}
         </ul>
         <li>
           This syntax is used when the package exports multiple named exports.
