@@ -1,15 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "./components/name";
+// import "./components/name";
 import nameComponent from "./components/name";
 import objectComponent from "./components/objectComponent";
 import dataComponent from "./components/dataComponent";
 import listComponent from "./components/listComponent";
 import complexComponent from "./components/complexComponent";
 import postsComponent from "./components/posts";
-
-const name = "Abdul Moiz";
-
+import BasicTextFields from "./MUI components/textfield.jsx";
 function App() {
   return (
     (<h1>Question 1</h1>),
@@ -48,11 +46,11 @@ function App() {
     )
   );
 }
+
 // function App(){
 //   return(
-//     nameComponent()
+    
 //   )
 // }
-// nameComponent()
 
 export default App;
