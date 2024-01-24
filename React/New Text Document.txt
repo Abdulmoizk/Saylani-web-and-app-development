@@ -1,0 +1,14 @@
+hooks
+
+statetypes 
+
+>useState
+
+>useEffect
+with empty array => it will run only one time
+without empty array it will run when component loads
+with condition array it will run i starting and whenever the conditionpasses 
+for unmounting (lifecycle) we use return callback function in useeffect..
+
+useLayoutEffect
+=>same as use effect but the differnece is use effect renders when the components loaded succesfully but this layout effect will render first before components load  
