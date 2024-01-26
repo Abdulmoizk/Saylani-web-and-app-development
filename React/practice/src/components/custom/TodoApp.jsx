@@ -40,9 +40,9 @@ function TodoApp() {
           <li key={i}>
             <input
               disabled={v.disabled}
-              onChange={(e) => (v.value = e.target.value)}
+              onChange={(e) => editTodo(i, { ...v, value: e.target.value })}
               type="text"
-              defaultValue={v.value}
+              value={v.value}
             />
             {v.disabled ? (
               <button onClick={() => editTodo(i, v)}>Edit</button>
