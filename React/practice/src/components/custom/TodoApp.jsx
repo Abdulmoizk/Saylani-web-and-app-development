@@ -8,7 +8,6 @@ function TodoApp() {
   const [value, setValue] = useState("");
   const addTodo = () => {
     setTodos([...todos, { value, disabled: true }]);
-    console.log(setTodos);
     setValue("");
   };
   const deleteTodo = (i) => {
