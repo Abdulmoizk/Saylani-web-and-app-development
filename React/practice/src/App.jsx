@@ -2,6 +2,9 @@ import "./App.css";
 import Functions from "./components/custom/Practice";
 import TodoApp from "./components/custom/TodoApp";
 import Counter from "./components/custom/Counter";
+import BasicExample from "./components/bootstrap/Form";
+import AppRouter from "./config/router/router";
+
 
 function App() {
   const getData = (a) => {
@@ -9,11 +12,15 @@ function App() {
   };
   return (
     <>
-      <Functions getData={getData} />
+      {/* <Functions getData={getData} />
       <Counter />
       <br />
       <br />
       <TodoApp />
+      <BasicExample/> */}
+<AppRouter/>
+
+
     </>
   );
 }
