@@ -21,7 +21,6 @@ function AppRouter() {
                 setUser(true)
             }else {
                 setUser(false)
-
             }
             setloader(false)
         },[])
