@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Enter your name</label>
+        <input id="name" type="text" placeholder="Enter value" value="ahmed">
+        <br />
+        <textarea cols="20" rows="2"></textarea>
+        <br />
+        <p>Gender</p>
+        <p>
+            <label>
+                <input type="radio" name="gender" checked> Male
+            </label>
+        </p>
+        <p><label> <input type="radio" name="gender"> Female </label></p>
+        <p>Subject</p>
+        <p>
+            <input type="checkbox" name="subject" value="eng" checked> English
+            <input type="checkbox" name="subject" value="mth" checked> Math
+            <input type="checkbox" name="subject" value="urd" checked> Urdu
+        </p>
+        <select name="city" multiple>
+            <option value="">Select your city</option>
+            <option value="khi">Karachi</option>
+            <option value="lhr">Lahore</option>
+            <option value="isl">Islamabad</option>
+        </select>
+        <p>Upload your picture <input type="file"></p>
+        <input type="hidden" name="DC" value="100">
+        <input type="submit" value="Submit form">
+        <button>Submit form</button>
+    </form>
+</body>
+
+</html>
