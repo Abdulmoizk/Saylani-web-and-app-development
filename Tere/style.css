@@ -1,0 +1,116 @@
+.navbar{
+    background-image: url(images/Rectangle\ 2805\ \(1\).png);
+   height: 150px;
+}
+.nav-item{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.navbar-nav{
+    /* margin-left: 600px ;
+    padding: 20px; */
+    display: flex;
+    justify-content: right;
+}
+.btn2{
+    background-color: #75bf7a;
+    border: 2px solid #75bf7a;
+    border-radius: 5px;
+    color: white;
+    width: 170px;
+    font-size: 20px;
+    margin-right: 70px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 150px; */
+}
+.head{
+    padding: 40px 40px 10px 40px;
+}
+.headsec{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* position: relative;
+    left: 80px; */
+}
+.headsec > h1{
+    width: 550px;
+    font-weight: 760;
+}
+.headsec > p{
+    width: 350px;
+    font-size: small;
+    color: #9E9DA2;
+    font-weight: 500px;
+    line-height: 28px;
+    
+}
+.btnblk img{
+    height: 67px;
+    width: 192px;
+    padding: 5px;
+}
+.map img{
+    width: 400px;
+    height: 400px;
+
+}
+.sec2{
+    background-color: #75BF7A;
+    width: 1080px;
+    height: 120px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left:  100px;
+    
+}
+.head2{
+    display: flex;
+    align-items: center;
+    padding: 40px; 
+}
+.para1 p{
+    color: white;
+}
+.btn1{
+    padding-left: 120px;
+}
+.btn1 input{
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    width: 400px;
+}
+.btn1 > button{
+    border-radius: 3px;
+    background-color: black;
+    height: 45px;
+    width: 200px;
+    color: white;
+    border: 0px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.btn1 > button a{
+    color: white;
+    font-weight: 800px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

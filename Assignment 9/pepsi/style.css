@@ -1,0 +1,360 @@
+.my-nav{
+    background-color: #0065c3;
+}
+img{
+    margin-left: 20px;
+}
+.nav-item a{
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.btn{
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 5.5px 26px;
+    width: 250px;
+}
+.btn:hover{
+    background-color: white !important;
+    color: #0065c3;
+    border-color: white !important;
+    font-weight: bold;
+}
+
+
+/* .unlock{
+    position: relative; left: 700px;
+    position: relative; bottom: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.unlock > button{
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 5.5px 26px;
+    line-height: 20px;
+    width: 250px;
+    margin-top: 20px;
+    
+}
+.banner{
+    position: relative; left: 100px;
+    position: relative; bottom: 1200px;
+} */
+.sec1{
+    background-image:url(images/bg1.png);
+    background-position: center;
+    height: 590px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.bannersec{
+    display: flex;
+     align-items: center;
+}
+.bannersec > img {
+    max-width: 710px;
+    max-height: 520px;
+    margin-top: 70px;
+  }
+/* .unlocksec {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+.unlocksec img {
+    max-width: 810px;
+    max-height: 520px;
+  }
+  
+.btn-two {
+    margin: 30px auto;
+  }
+.unlocksec > p {
+    width: 480px;
+    height: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+  } */
+.sec1main{
+    display: flex;
+    flex-direction: row;
+}
+.unlocksec img{
+    margin-top: 100px;
+    width: 480px;
+}
+.unlocksec button{
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    margin-top: 30px;
+    margin-left: 42%;
+}
+.btn2 a{
+    color: white !important;
+    font-weight: bold
+    
+    
+}
+.btn2:hover{
+    color: white;
+    font-weight: bold;
+
+}
+.unlocksec p{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    width: 480px ;
+    margin-left: 22px;
+    font-size: small;
+}
+.unpara a{
+color: white;
+}
+  .bannersec img{
+    width: 620px;
+  }
+.sec2main{
+    background-image: url(images/bg2.png);
+    width: 100%;
+    height: 600px;
+}
+
+.sec2img img{
+    width: 900px;
+    height: 600px;
+}
+.corner img{
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+}
+.rtcorner{
+    position: relative;
+    left: 700px;
+    bottom: 750px;
+}
+.rtcorner img{
+    width: 500px;
+    height: 250px;
+}
+.rtcorner2{
+    position: relative;
+    left: 700px;
+    bottom: 750px;
+}
+.rtcorner2 img{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 25px;
+    width:450px
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 670px;
+    bottom: 750px;
+    margin-top: 10px;
+}
+.video2{
+    margin-left: 10px;
+}
+.videopara{
+    position: relative;
+    left: 700px;
+    bottom: 750px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 510px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+.videopara2{
+    margin-left: 30px;
+}
+.sec3main{
+    background-image: url(images/bg3.png);
+    width: 100%;
+    height: 650px;
+}
+/* .nitromain{
+    display: flex;
+    align-items: center;
+} */
+.nitropic img{
+    width: 430px;
+    height: 570px;
+    margin-top: 96px;
+    margin-left: 200px;
+}
+.nitro{
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+}
+.nitro img{
+    height: 250px;
+    width: 450px;
+    margin-left: 60px;
+}
+.nitropara{
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+    margin-top: 20px;
+    color: white;
+    width: 300px;
+    font-size: 32px;
+    margin-left: 65px;
+}
+.nitrobtn{
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+    margin-top: 20px;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-left: 170px;
+}
+.sec7main{
+    background-image: url(images/bg7.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec7main div{
+    margin-top: 98px;
+}
+.fstcan img{
+    width: 550px;
+}
+.scndqt img{
+    width: 500px;
+    margin-top: 50px;
+}
+/* .sec8main{
+    background-image: url(images/bg8.jpg);
+    width: 100%;
+    height: 600px;
+}
+.para8{
+    width: 500px;
+    color: white;
+    margin-left: 150px;
+}
+.para8 span{
+    display: block;
+    font-size: 3.75rem;
+    width: 600px;
+    line-height: 1em;
+    font-weight: 800;
+}
+.para8btn{
+    border-radius: ;
+}
+.pic8 img{
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+    width: 500px;
+
+} */
+.sec8{
+    background-image: url(images/bg8.jpg);
+    width: 100%;
+    height: 600px;
+}
+.sec8para{
+    width: 500px;
+    height: 550px;
+    color: white;
+    position: relative;
+    top: 150px ;
+    margin-left: 120px;
+    
+}
+.sec8para button{
+    border-radius: 20px;
+    color: white !important;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 20px;
+}
+.sec8para button:hover{
+    background-color: white;
+    color: #0065c3;
+}
+.sec8para button a{
+    color: white;
+}
+.sec8para p{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sec8para h1{
+    font-weight: 800;
+}
+.sec8img img{
+    width: 650px;
+    position: relative;
+    left: 630px;
+    bottom: 400px;
+}
+.social{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+}
+.scl h1{
+    text-align: center;
+    color: #0065c3;
+    font-size: 60px;
+    font-weight: 800;
+}
+.imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+.imgcontainer img{
+    margin-left: -5px !important;
+}
+.footersec{
+    background-color: #0065c3;
+    width: 100%;
+    height: 400px;
+}
+.footlogo img{
+    width: 101px;
+    height: auto;
+}
+.lifoot li{
+    color: white;
+}
